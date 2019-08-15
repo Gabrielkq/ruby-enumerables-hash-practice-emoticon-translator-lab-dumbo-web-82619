@@ -27,6 +27,8 @@ def get_japanese_emoticon(yamldata, emoticon)
  end
   
 end
+
+
 def get_english_meaning
 def get_japanese_emoticon(yamldata, emoticon)
  emoji_hash= load_library(yamldata)
