@@ -22,8 +22,6 @@ def get_japanese_emoticon(yamldata, emoticon)
 if emoji_match == nil return "Sorry, that emoticon was not found"
  else emoji_match
 end
-end
-end
 
 def get_english_meaning
   # code goes here
