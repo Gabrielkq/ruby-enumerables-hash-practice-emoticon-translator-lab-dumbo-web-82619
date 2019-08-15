@@ -19,7 +19,7 @@ end
 def get_japanese_emoticon(yamldata, emoticon)
  emoji_hash= load_library(yamldata)
  emoji_match = emoji_hash[:get_emoticon][emoticon]
-if emoji_match.true? return "Sorry, that emoticon was not found"
+if emoji_match return emoji_match_match else return"Sorry, that emoticon was not found"
  else emoji_match
 end
 
